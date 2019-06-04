@@ -1,5 +1,9 @@
+
+/* dancing-script-regular - latin */
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 body {
   background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
 }
 #contenido{
   display: flex;
@@ -14,13 +18,14 @@ body {
   margin-left: auto;/* IDEA: horientacion del contenido */
 }
 #encabezado .titulo{
-  font-family: "Dancing Script";
+
+
   color: white;
   font-size: 2em;
   text-shadow: 2px 2px 2px #02010a;/* IDEA: bordes letras  */
 }
 #encabezado .menu > a{
-  font-family: cursive;
+
   color: white;
   font-size: 2em;
   text-shadow: 2px 2px 2px #02010a;/* IDEA: bordes letras  */
@@ -59,19 +64,19 @@ box-shadow: 2px 2px ;/* IDEA: bordes  */
   margin: auto;
 }
 #enlace{
-  font-family: cursive;
+
   color: black;
   font-size: 2em;
   text-shadow: 2px 2px 2px #02010a;/* IDEA: bordes letras  */
 }
 #fotos{
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   box-shadow: 2px 2px #82c3a6;
 }
 #fotos1{
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
   box-shadow: 2px 2px #82c3a6;
 }
 #fotog1 img:hover{
@@ -99,5 +104,22 @@ box-shadow: 2px 2px ;/* IDEA: bordes  */
   padding: 10px;
 	width: 25%;
   margin: 15px;
-  font-family: cursive;
+
+}
+#wrapper{
+  width: 960px;
+  margin: 0;
+}
+@media (max-width: 900px) {
+  .contenedor{
+    text-align: center;
+    display: flex;
+  	flex-direction: column;/* IDEA: division en columnas */
+  }
+  .titulo {
+    text-align: center;
+  }
+  .menu {
+    text-align: center;
+  }
 }
